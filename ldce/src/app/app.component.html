@@ -1,0 +1,83 @@
+<div class="page-wrapper">
+  <div class="login-container">
+
+    <!-- Login Form -->
+    <div *ngIf="!isLoggedIn">
+      <h1>Login Form</h1>
+      <form>
+        <input type="text" placeholder="Enter your email" [formControl]="name"><br><br>
+        <input type="password" placeholder="Enter your password" [formControl]="password"><br><br>
+        <button type="button" (click)="loginUser()">Login</button>
+      </form>
+    </div>
+
+    <!-- User Info and Operations -->
+    <div *ngIf="isLoggedIn">
+
+      <h2>Welcome, {{ userData.firstName }} {{ userData.lastName }}</h2>
+
+      <ul>
+        <li><strong>ID:</strong> {{ userData.id }}</li>
+        <li><strong>Email:</strong> {{ userData.emailAddress }}</li>
+        <li><strong>Phone:</strong> {{ userData.phoneNumber }}</li>
+        <li><strong>User Type:</strong> {{ userData.userType }}</li>
+        <li><strong>Message:</strong> {{ userData.message }}</li>
+      </ul>
+
+      <img *ngIf="userData.userImage" [src]="userData.userImage" alt="User Image" width="150" />
+
+      <hr>
+
+      <!-- Action Buttons -->
+      <button (click)="showForm('update')">Update User</button>
+      <button (click)="showForm('delete')">Delete User</button>
+      <button (click)="showForm('get')">Get User</button>
+      <button (click)="showForm('all')">Show All Users</button>
+
+      <hr>
+
+      <!-- Update Form -->
+      <div *ngIf="activeForm === 'update'">
+        <h2>Update User</h2>
+        <form>
+          <input type="text" placeholder="New First Name" [(ngModel)]="updateUser.firstName" name="updateFirstName"><br><br>
+          <input type="text" placeholder="New Last Name" [(ngModel)]="updateUser.lastName" name="updateLastName"><br><br>
+          <input type="text" placeholder="New Phone" [(ngModel)]="updateUser.phoneNumber" name="updatePhone"><br><br>
+          <button type="button" (click)="updateUserByEmail()">Update</button>
+        </form>
+      </div>
+
+      <!-- Delete Form -->
+      <div *ngIf="activeForm === 'delete'">
+        <h2>Delete User</h2>
+        <input type="number" placeholder="User ID to Delete" [(ngModel)]="deleteUserId" name="deleteUserId">
+        <button type="button" (click)="deleteUser()">Delete User</button>
+      </div>
+
+      <!-- Get Form -->
+      <div *ngIf="activeForm === 'get'">
+        <h2>Get User</h2>
+        <input type="text" placeholder="Email" [(ngModel)]="searchEmail" name="searchEmail">
+        <button type="button" (click)="getUserByEmail()">Get by Email</button><br><br>
+
+        <input type="number" placeholder="User ID" [(ngModel)]="searchId" name="searchId">
+        <button type="button" (click)="getUserById()">Get by ID</button>
+      </div>
+
+      <!-- Show All Users -->
+      <div *ngIf="activeForm === 'all'">
+        <h2>All Users</h2>
+        <button (click)="getAllUsers()">Refresh List</button>
+        <ul *ngIf="allUsers.length > 0">
+          <li *ngFor="let u of allUsers">
+            {{ u.id }} - {{ u.firstName }} {{ u.lastName }} ({{ u.emailAddress }})
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <hr>
+    <h3 class="status">Status: {{ resultMessage }}</h3>
+  </div>
+</div>

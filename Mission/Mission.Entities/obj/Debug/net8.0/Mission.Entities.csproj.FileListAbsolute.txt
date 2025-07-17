@@ -1,0 +1,15 @@
+E:\tatva soft internship\Mission\Mission.Entities\bin\Debug\net8.0\Mission.Entities.deps.json
+E:\tatva soft internship\Mission\Mission.Entities\bin\Debug\net8.0\Mission.Entities.runtimeconfig.json
+E:\tatva soft internship\Mission\Mission.Entities\bin\Debug\net8.0\Mission.Entities.dll
+E:\tatva soft internship\Mission\Mission.Entities\bin\Debug\net8.0\Mission.Entities.pdb
+E:\tatva soft internship\Mission\Mission.Entities\obj\Debug\net8.0\Mission.Entities.csproj.AssemblyReference.cache
+E:\tatva soft internship\Mission\Mission.Entities\obj\Debug\net8.0\Mission.Entities.GeneratedMSBuildEditorConfig.editorconfig
+E:\tatva soft internship\Mission\Mission.Entities\obj\Debug\net8.0\Mission.Entities.AssemblyInfoInputs.cache
+E:\tatva soft internship\Mission\Mission.Entities\obj\Debug\net8.0\Mission.Entities.AssemblyInfo.cs
+E:\tatva soft internship\Mission\Mission.Entities\obj\Debug\net8.0\Mission.Entities.csproj.CoreCompileInputs.cache
+E:\tatva soft internship\Mission\Mission.Entities\obj\Debug\net8.0\Mission.Entities.sourcelink.json
+E:\tatva soft internship\Mission\Mission.Entities\obj\Debug\net8.0\Mission.Entities.dll
+E:\tatva soft internship\Mission\Mission.Entities\obj\Debug\net8.0\refint\Mission.Entities.dll
+E:\tatva soft internship\Mission\Mission.Entities\obj\Debug\net8.0\Mission.Entities.pdb
+E:\tatva soft internship\Mission\Mission.Entities\obj\Debug\net8.0\Mission.Entities.genruntimeconfig.cache
+E:\tatva soft internship\Mission\Mission.Entities\obj\Debug\net8.0\ref\Mission.Entities.dll

@@ -1,0 +1,13 @@
+E:\tatva soft internship\AspireApp1.api\AspireApp1.api.ServiceDefaults\bin\Debug\net8.0\AspireApp1.api.ServiceDefaults.deps.json
+E:\tatva soft internship\AspireApp1.api\AspireApp1.api.ServiceDefaults\bin\Debug\net8.0\AspireApp1.api.ServiceDefaults.dll
+E:\tatva soft internship\AspireApp1.api\AspireApp1.api.ServiceDefaults\bin\Debug\net8.0\AspireApp1.api.ServiceDefaults.pdb
+E:\tatva soft internship\AspireApp1.api\AspireApp1.api.ServiceDefaults\obj\Debug\net8.0\AspireApp1.api.ServiceDefaults.csproj.AssemblyReference.cache
+E:\tatva soft internship\AspireApp1.api\AspireApp1.api.ServiceDefaults\obj\Debug\net8.0\AspireApp1.api.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+E:\tatva soft internship\AspireApp1.api\AspireApp1.api.ServiceDefaults\obj\Debug\net8.0\AspireApp1.api.ServiceDefaults.AssemblyInfoInputs.cache
+E:\tatva soft internship\AspireApp1.api\AspireApp1.api.ServiceDefaults\obj\Debug\net8.0\AspireApp1.api.ServiceDefaults.AssemblyInfo.cs
+E:\tatva soft internship\AspireApp1.api\AspireApp1.api.ServiceDefaults\obj\Debug\net8.0\AspireApp1.api.ServiceDefaults.csproj.CoreCompileInputs.cache
+E:\tatva soft internship\AspireApp1.api\AspireApp1.api.ServiceDefaults\obj\Debug\net8.0\AspireApp1.api.ServiceDefaults.sourcelink.json
+E:\tatva soft internship\AspireApp1.api\AspireApp1.api.ServiceDefaults\obj\Debug\net8.0\AspireApp1.api.ServiceDefaults.dll
+E:\tatva soft internship\AspireApp1.api\AspireApp1.api.ServiceDefaults\obj\Debug\net8.0\refint\AspireApp1.api.ServiceDefaults.dll
+E:\tatva soft internship\AspireApp1.api\AspireApp1.api.ServiceDefaults\obj\Debug\net8.0\AspireApp1.api.ServiceDefaults.pdb
+E:\tatva soft internship\AspireApp1.api\AspireApp1.api.ServiceDefaults\obj\Debug\net8.0\ref\AspireApp1.api.ServiceDefaults.dll
